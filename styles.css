@@ -1,13 +1,116 @@
 .header_container {
-  background-color: white;
-  width:100vw;
-  flex-direction: column;
-  justify-content: center;
+    background-color: white;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav_bar {
+    width: 100vw;
 }
 
 .header_row {
-  display: flex;
+    display: flex;
+    width: 100%;
 }
-.column {
-  display: flex;
+
+.column_search {
+    position: relative;
+    display: flex;
+    margin: 20px;
+    left: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.column_logo {
+    position: relative;
+    display: flex;
+    margin: 20px;
+    left: 20%;
+    height: 50px;
+    overflow: hidden;
+    width: 20%;
+}
+
+.column_space {
+    position: relative;
+    display: flex;
+    margin: 20px;
+}
+
+.column_auth {
+    position: relative;
+    display: flex;
+    margin: 20px;
+    left: 35%;
+}
+
+.btnLog {
+    border: none;
+    background-color: blue;
+    width: 80px;
+    height: 35px;
+    padding: 0px;
+    margin-right: 20px;
+}
+
+.btnSub {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    background-color: blue;
+    width: 80px;
+    height: 35px;
+    padding: 0px;
+}
+
+.main_body {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+}
+
+.body_table {
+    display: table;
+}
+
+.body_row {
+    display: table-row;
+}
+.body_row p {
+  font-weight: normal;
+  font-size: small;
+}
+.section {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.section_body {
+  display: grid;
+  background-image: url("images/inflation-945.png");
+  width: 1000px;
+  height: 1200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  grid-template-columns: auto auto auto auto;
+}
+.paragragh {
+  margin-top: 100px;
+  font-size: smaller;
+  font-style: normal;
 }
