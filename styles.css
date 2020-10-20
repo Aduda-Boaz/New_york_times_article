@@ -1,25 +1,13 @@
-.nav_container{
-    background-color: white;
-    width:100%;
+.header_container {
+  background-color: white;
+  width:100vw;
+  flex-direction: column;
+  justify-content: center;
 }
-.space {
-    float: left;
-    height:20%
-}
-.title{
-   left:30%;
-}
-.subLogin{
-    float: right;
 
+.header_row {
+  display: flex;
 }
-#subscribe{
-  background-color: blue;
-  border: none;
-
-}
-#login{
-  background-color: blue;
-  border: none;
-
+.column {
+  display: flex;
 }
