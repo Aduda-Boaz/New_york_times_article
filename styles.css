@@ -90,27 +90,38 @@ img {
 .body_row {
     display: table-row;
 }
+
 .body_row p {
-  font-weight: normal;
-  font-size: small;
+    font-weight: normal;
+    font-size: small;
 }
+
 .section {
-  font-weight: normal;
-  font-style: normal;
+    font-weight: normal;
+    font-style: normal;
 }
 
 .section_body {
-  display: grid;
-  background-image: url("images/inflation-945.png");
-  width: 1000px;
-  height: 1200px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-top: 30px;
-  grid-template-columns: auto auto auto auto;
+    display: grid;
+    background-image: url("images/inflation-945.png");
+    width: 1000px;
+    height: 1200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    grid-template-columns: auto auto auto auto;
 }
+
 .paragragh {
-  margin-top: 100px;
-  font-size: smaller;
-  font-style: normal;
+    margin-top: 130px;
+    font-size: smaller;
+    font-style: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sectionTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
