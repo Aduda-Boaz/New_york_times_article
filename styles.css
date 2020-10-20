@@ -1,13 +1,71 @@
 .header_container {
-  background-color: white;
-  width:100vw;
-  flex-direction: column;
-  justify-content: center;
+    background-color: white;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav_bar {
+    width: 100vw;
 }
 
 .header_row {
-  display: flex;
+    display: flex;
+    width: 100%;
 }
-.column {
-  display: flex;
+
+.column_search {
+    position: relative;
+    display: flex;
+    margin: 20px;
+    left: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.column_logo {
+    position: relative;
+    display: flex;
+    margin: 20px;
+    left: 20%;
+    height: 50px;
+    overflow: hidden;
+    width: 20%;
+}
+
+.column_space {
+    position: relative;
+    display: flex;
+    margin: 20px;
+}
+
+.column_auth {
+    position: relative;
+    display: flex;
+    margin: 20px;
+    left: 35%;
+}
+
+.btnLog {
+    border: none;
+    background-color: blue;
+    width: 80px;
+    height: 35px;
+    padding: 0px;
+    margin-right: 20px;
+}
+
+.btnSub {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    background-color: blue;
+    width: 80px;
+    height: 35px;
+    padding: 0px;
 }
