@@ -102,14 +102,17 @@ img {
 }
 
 .section_body {
-    display: grid;
     background-image: url("images/inflation-945.png");
     width: 1000px;
     height: 1200px;
     background-size: contain;
     background-repeat: no-repeat;
     padding-top: 30px;
-    grid-template-columns: auto auto auto auto;
+}
+
+.section_grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 
 .paragragh {
@@ -118,10 +121,23 @@ img {
     font-style: normal;
     margin-left: 10px;
     margin-right: 10px;
+    height: 200px;
 }
 
 .sectionTitle {
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+.paragragh_2 {
+  font-size: smaller;
+  font-style: normal;
+  margin-top: 85px;
+  margin-left: 10px;
+  margin-right: 10px;
+ }
+.paragraph p {
+  height: 200px;
 }
