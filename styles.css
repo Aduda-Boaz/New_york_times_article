@@ -1,0 +1,25 @@
+.nav_container{
+    background-color: white;
+    width:100%;
+}
+.space {
+    float: left;
+    height:20%
+}
+.title{
+   left:30%;
+}
+.subLogin{
+    float: right;
+
+}
+#subscribe{
+  background-color: blue;
+  border: none;
+
+}
+#login{
+  background-color: blue;
+  border: none;
+
+}
