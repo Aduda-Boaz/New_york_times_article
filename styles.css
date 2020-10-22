@@ -13,6 +13,7 @@
     border-bottom: solid black 1px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    margin: 0px;
 }
 
 .article_title {
@@ -135,34 +136,34 @@ img {
 }
 
 .section {
-  font-weight: normal;
-  font-style: normal;
+    font-weight: normal;
+    font-style: normal;
 }
 
 .theory_header {
-  font-weight: normal;
-  font-style: normal;
-  font-size: medium;
-  margin-bottom: 5px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: medium;
+    margin-bottom: 5px;
 }
 
-.theory_header > span {
+.theory_header>span {
     font-size: smaller;
     color: darkgrey;
 }
 
-.theory_span > p {
+.theory_span>p {
     font-size: small;
     font-weight: normal;
     font-style: normal;
 }
 
 .section_body {
-  background-image: url("images/inflation-945.png");
-  width: 1000px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-top: 30px;
+    background-image: url("images/inflation-945.png");
+    width: 1000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 30px;
 }
 
 .section_body_2 {
@@ -193,7 +194,8 @@ img {
 .paragragh_2 {
     font-size: smaller;
     font-style: normal;
-    font-weight: normal;;
+    font-weight: normal;
+    ;
     margin-top: 85px;
     margin-left: 20px;
     margin-right: 20px;
@@ -275,24 +277,25 @@ img {
 }
 
 .more_space {
-  display: grid;
-  grid-template-columns: 75% 25%;
-
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 10px;
 }
 
 .space_astronomy {
-  grid-column: 1/2;
-
+    grid-column: 1/2;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
 }
-.most_popular {
-  grid-column: 2/3;
-  margin-right: 20px;
-  font-style: normal;
-  margin-left: 5px;
-  border-left: black ;
-  border-width: 2px;
-  border-top: gray ;
 
+.most_popular {
+    left: 10px;
+    grid-column: 2/3;
+    font-style: normal;
+    margin-left: 10px;
+    border-top: solid;
+    border-width: 1px;
 }
 
 .space_articles {
@@ -301,5 +304,61 @@ img {
 }
 
 .more_onspace {
-display: table-column;
+    display: table-column;
+}
+
+.footer_container {
+    border-top: double;
+    border-bottom: solid;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    border-width: 1px;
+    border-color: rgb(165, 159, 159);
+}
+
+.footer_head {
+    display: table;
+    width: 100%;
+}
+
+#footer_logo {
+    display: table-cell;
+    width: 70%;
+}
+
+#homepage {
+    display: table-cell;
+    width: 30%;
+    float: right;
+}
+
+.channels_subsc {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 10px;
+}
+
+.channels {
+    grid-column: 1/2;
+}
+
+.channels ul {
+    list-style-type: none;
+}
+
+.subscribtion {
+    grid-column: 2/3;
+    font-style: normal;
+    border-left: solid;
+    border-width: 1px;
+}
+
+.subscribtion ul {
+    list-style-type: none;
+}
+
+#channels {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 10px;
 }
