@@ -3,22 +3,41 @@
     width: 100vw;
     flex-direction: column;
     justify-content: center;
+    margin: 0px;
 }
 
 .nav_bar {
+    position: fixed;
     width: 100vw;
     justify-content: space-between;
+    border-bottom: solid black 1px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.article_title {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.article_title h2 {
+    text-align: left;
 }
 
 .header_row {
     display: flex;
     width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .column_search {
     position: relative;
     display: flex;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     left: 0;
 }
 
@@ -32,9 +51,10 @@ img {
 .column_logo {
     position: relative;
     display: flex;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     left: 20%;
-    height: 50px;
+    height: 30px;
     overflow: hidden;
     width: 20%;
 }
@@ -42,13 +62,15 @@ img {
 .column_space {
     position: relative;
     display: flex;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .column_auth {
     position: relative;
     display: flex;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     left: 35%;
 }
 
@@ -72,20 +94,35 @@ img {
 }
 
 .main_body {
-    display: flex;
-    align-items: center;
+    position: relative;
     text-align: left;
     font-size: large;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 150px;
+    margin-right: 150px;
     padding: 20px;
+    top: 50px;
 }
 
 .body_table {
-    display: table;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.body_container_1 {
+    justify-items: center;
+    justify-content: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.aside_container {
+    justify-items: center;
+    justify-content: center;
+    grid-column: 3/4;
+    grid-row: 1/2;
 }
 
 .body_row {
@@ -105,15 +142,18 @@ img {
 .section_body {
     background-image: url("images/inflation-945.png");
     width: 1000px;
-    height: 1200px;
     background-size: contain;
     background-repeat: no-repeat;
     padding-top: 30px;
 }
 
+.section_body_2 {
+    margin: 10%;
+}
+
 .section_grid {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
 .paragragh {
@@ -129,16 +169,87 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .paragragh_2 {
-  font-size: smaller;
-  font-style: normal;
-  margin-top: 85px;
-  margin-left: 10px;
-  margin-right: 10px;
- }
+    font-size: smaller;
+    font-style: normal;
+    margin-top: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .paragraph p {
-  height: 200px;
+    height: 200px;
+}
+
+.video_container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin-bottom: 20px;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.comment_grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 20%;
+}
+
+.read_comments {
+    grid-column: 1/2;
+}
+
+.social_share {
+    grid-column: 2/3;
+}
+
+.comment_btn {
+    border: none;
+    background-color: rgb(52, 59, 153);
+    height: 30px;
+    width: 260px;
+    color: white;
+    font-size: large;
+}
+
+.comment_link {
+    color: white;
+}
+
+.comment_link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.social_icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 25%;
+    background-color: rgb(156, 217, 233);
+    margin: 10px;
+}
+
+.social_icon:hover {
+    text-decoration: none;
+}
+
+.comment_link:active .comment_section {
+    display: block;
+}
+
+.comment_section {
+    position: absolute;
+    display: none;
+    height: 1000px;
+    width: 300px;
 }
