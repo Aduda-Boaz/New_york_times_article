@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Project Name
 
 > New_york_times_article page clone with HTML and CSS.
