@@ -1,15 +1,17 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-  
+
 .header_container {
+    position: absolute;
     background-color: white;
     width: 100vw;
     flex-direction: column;
     justify-content: center;
     margin: 0px;
+    z-index: 1;
 }
 
 .nav_bar {
@@ -20,6 +22,33 @@
     margin-bottom: 0px;
     padding-bottom: 0px;
     margin: 0px;
+}
+
+.search_icon {
+    background-image: url(/images/searchIcon.png);
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.menu_list {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.menu_line {
+    border: none;
+    width: 70%;
+    height: 3px;
+    background-color: black;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .article_title {
@@ -38,6 +67,7 @@
     width: 100%;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    background-color: white;
 }
 
 .column_search {
@@ -296,18 +326,18 @@ img {
     border-width: 1px;
 }
 
-.space_astronomy > h5 {
+.space_astronomy>h5 {
     font-style: normal;
 }
 
 .most_popular {
-  grid-column: 2/3;
-  margin-right: 20px;
-  font-style: normal;
-  margin-left: 5px;
-  border-left: ⏬ ;
-  border-width: 2px;
-  border-top: ♥ ;
+    grid-column: 2/3;
+    margin-right: 20px;
+    font-style: normal;
+    margin-left: 5px;
+    border-left: ⏬;
+    border-width: 2px;
+    border-top: ♥;
 }
 
 .most_popular {
@@ -318,7 +348,8 @@ img {
     border-top: solid;
     border-width: 1px;
 }
-.most_popular > div {
+
+.most_popular>div {
     border-bottom: solid;
     border-width: 1px;
     border-color: grey;
@@ -327,7 +358,7 @@ img {
     font-size: small;
 }
 
-.most_popular > div a {
+.most_popular>div a {
     color: black;
     text-decoration: none;
 }
@@ -341,7 +372,8 @@ img {
 .more_onspace {
     display: table-column;
 }
-.more_onspace > a {
+
+.more_onspace>a {
     color: black;
     text-decoration: none;
     font-style: normal;
@@ -359,6 +391,7 @@ img {
     border-width: 1px;
     border-color: rgb(165, 159, 159);
 }
+
 .footer_container a {
     color: black;
 }
@@ -403,8 +436,8 @@ img {
     font-style: normal;
     border-left: solid;
     border-width: 1px;
-
 }
+
 .subscribtion h5 {
     margin-left: 20px;
 }
