@@ -37,8 +37,8 @@
 }
 
 .menu_list {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 30px;
     padding: 5px;
 }
 
@@ -68,6 +68,8 @@
     margin-bottom: 0px;
     padding-bottom: 0px;
     background-color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .column_search {
@@ -108,7 +110,8 @@ img {
     display: flex;
     margin-top: 20px;
     margin-bottom: 0px;
-    left: 35%;
+    float: left;
+    left: 40%;
 }
 
 .btnLog {
@@ -149,17 +152,21 @@ img {
 }
 
 .body_container_1 {
+    position: relative;
     justify-items: center;
     justify-content: center;
     grid-column: 2/3;
     grid-row: 1/2;
+    background-color: yellow;
 }
 
 .aside_container {
+    display: relative;
     justify-items: center;
     justify-content: center;
     grid-column: 3/4;
     grid-row: 1/2;
+    top: 500px;
 }
 
 .body_row {
