@@ -1,2 +1,47 @@
-# New_york_times_article
-This is a Microverse Collaborative project about creating a New York Times article page clone
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Project Name
+
+> New_york_times_article page clone with HTML and CSS.
+
+![screenshot](./newyork_article.png)
+
+Additional description about the project and its features.
+
+## Built With
+
+- HTML
+- CSS
+
+## Live Demo
+
+
+## Authors
+
+👤 **Boaz Aduda**
+
+- GitHub: [@Aduda-Boaz](https://github.com/Aduda-Boaz)
+- Twitter: [@adudaboaz](https://twitter.com/adudaboaz)
+- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+
+👤 **Yosef Haylemiciale**
+
+- GitHub: [@Honda99](https://github.com/Honda99)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse Global School for Remote Developers
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
