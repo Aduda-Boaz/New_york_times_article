@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .header_container {
   position: absolute;
   background-color: white;
@@ -13,8 +12,6 @@
   margin: 0;
   z-index: 1;
 }
-
-
 .nav_bar {
   position: fixed;
   width: 100vw;
@@ -32,21 +29,17 @@
   padding-bottom: 5px;
   padding-top: 5px;
 }
-
 .column_search {
   position: relative;
   display: flex;
   align-items: center;
-  
-  
 }
-.column_search:hover{
+.column_search:hover {
   background-color: rgb(163, 163, 163);
 }
 .column_search:active{
   border: solid black 1px;
 }
-
 .search_icon {
   background-image: url(./images/icons8-search.svg);
   border: none;
@@ -61,16 +54,8 @@
   align-items: center;
   justify-content: center;
   justify-self: center;
-   width: 30%;
-
-
-  
+   width: 25%;
 }
-.column_logo a{
-
-}
-
-
 .column_space {
   position: relative;
   display: flex;
@@ -79,7 +64,7 @@
   justify-self: center;
   text-align: center;
 }
-.column_space a{
+.column_space a {
   color: black;
   font-size: larger;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -96,10 +81,7 @@
   justify-self: end;
   right: 60px;
   width: 100%;
-
 }
-
-
 .menu_list {
   width: 30px;
   height: 30px;
@@ -108,13 +90,12 @@
  
   justify-self: center;
 }
-.menu_list:hover{
+.menu_list:hover {
   background-color: thistle;
 }
 .menu_list:active{
   border: solid black 1px;
 }
-
 .menu_line {
   border: none;
   width: 80%;
@@ -122,7 +103,6 @@
   background-color: black;
   margin-top: 3px;
   margin-bottom: 3px;
-
 }
 img {
   max-width: 100%;
@@ -130,9 +110,6 @@ img {
   object-fit: contain;
   display: block;
 }
-
-
-
 .btnAuth {
   margin-left: 10px;
   margin-right: 10px;
@@ -143,28 +120,19 @@ img {
   border-radius: 7%;
   color: white;
   background-color: rgb(72, 112, 149);
-  
 }
-.btnAuth:hover{
+.btnAuth:hover {
   background-color: rgb(62, 100, 136);
 }
-
-
-
 .article_title {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
 }
-
 .article_title h2 {
   text-align: left;
 }
-
-
-
-
 .main_body {
   display: grid;
   position: relative;
@@ -178,19 +146,16 @@ img {
   padding: 20px;
   top: 50px;
 }
-
 .figure_caption {
   font-size: small;
   font-weight: lighter;
   font-style: normal;
   color: grey;
 }
-
 .body_table {
   display: grid;
   grid-template-columns: 10% 80% 10%;
 }
-
 .body_container_1 {
   position: relative;
   justify-items: center;
@@ -198,7 +163,6 @@ img {
   grid-column: 2/3;
   grid-row: 1/2;
 }
-
 .aside_container {
   justify-items: center;
   justify-content: center;
@@ -207,39 +171,32 @@ img {
   top: 500px;
   margin-left: 20px;
 }
-
 .body_row {
   display: table-row;
 }
-
 .body_row p {
   font-weight: normal;
   font-size: small;
 }
-
 .section {
   font-weight: normal;
   font-style: normal;
 }
-
 .theory_header {
   font-weight: normal;
   font-style: normal;
   font-size: medium;
   margin-bottom: 5px;
 }
-
-.theory_header>span {
+.theory_header > span {
   font-size: smaller;
   color: darkgrey;
 }
-
-.theory_span>p {
+.theory_span > p {
   font-size: small;
   font-weight: normal;
   font-style: normal;
 }
-
 .section_body {
   background-image: url("images/inflation-945.png");
   width: 1000px;
@@ -247,16 +204,13 @@ img {
   background-repeat: no-repeat;
   padding-top: 30px;
 }
-
 .section_body_2 {
   margin: 10%;
 }
-
 .section_grid {
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
-
 .paragragh {
   margin-top: 130px;
   font-size: smaller;
@@ -266,13 +220,11 @@ img {
   height: 200px;
   font-weight: normal;
 }
-
 .sectionTitle {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .paragragh_2 {
   font-size: smaller;
   font-style: normal;
@@ -281,11 +233,9 @@ img {
   margin-left: 20px;
   margin-right: 20px;
 }
-
 .paragraph p {
   height: 200px;
 }
-
 .video_container {
   position: relative;
   width: 100%;
@@ -293,7 +243,6 @@ img {
   padding-bottom: 56.25%;
   margin-bottom: 20px;
 }
-
 .video {
   position: absolute;
   top: 0;
@@ -301,21 +250,17 @@ img {
   width: 100%;
   height: 100%;
 }
-
 .comment_grid {
   display: grid;
   grid-template-columns: 50% 50%;
   margin-left: 20%;
 }
-
 .read_comments {
   grid-column: 1/2;
 }
-
 .social_share {
   grid-column: 2/3;
 }
-
 .comment_btn {
   border: none;
   background-color: rgb(52, 59, 153);
@@ -324,16 +269,13 @@ img {
   color: white;
   font-size: large;
 }
-
 .comment_link {
   color: white;
 }
-
 .comment_link:hover {
   text-decoration: none;
   color: white;
 }
-
 .social_icon {
   width: 80px;
   height: 80px;
@@ -341,33 +283,27 @@ img {
   background-color: rgb(156, 217, 233);
   margin: 10px;
 }
-
 .social_icon:hover {
   text-decoration: none;
 }
-
 .comment_link:active .comment_section {
   display: block;
 }
-
 .more_space {
   display: grid;
   grid-template-columns: 75% 25%;
   gap: 10px;
   margin-top: 45px;
 }
-
 .space_astronomy {
   grid-column: 1/2;
   border-top: solid;
   border-bottom: solid;
   border-width: 1px;
 }
-
-.space_astronomy>h5 {
+.space_astronomy > h5 {
   font-style: normal;
 }
-
 .most_popular {
   grid-column: 2/3;
   margin-right: 20px;
@@ -378,7 +314,6 @@ img {
   border-top: solid;
   border-width: 1px;
 }
-
 .most_popular > div {
   border-bottom: solid;
   border-width: 1px;
@@ -387,31 +322,26 @@ img {
   margin-bottom: 5px;
   font-size: small;
 }
-
 .most_popular > div a {
   color: black;
   text-decoration: none;
 }
-
 .space_articles {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 20px;
 }
-
 .more_onspace {
   display: table-column;
   color: black;
 }
-
-a>.more_space {
+a > .more_space {
   color: black;
   text-decoration: none;
   font-style: normal;
   font-size: 18px;
   font-weight: normal;
 }
-
 .footer_container {
   border-top: double;
   border-bottom: solid;
@@ -422,66 +352,54 @@ a>.more_space {
   border-width: 1px;
   border-color: rgb(165, 159, 159);
 }
-
-a>.footer_container {
+a > .footer_container {
   color: black;
 }
-
 .footer_head {
   display: table;
   width: 100%;
   align-items: center;
 }
-
 #footer_logo {
   display: table-cell;
   width: 70%;
   height: 30px;
 }
-
 #homepage {
   display: table-cell;
   width: 30%;
   float: right;
   color: blue;
 }
-
 .channels_subsc {
   display: grid;
   grid-template-columns: 75% 25%;
   gap: 10px;
 }
-
 .channels {
   grid-column: 1/2;
 }
-
 .channels ul {
   list-style-type: none;
   text-align: left;
   margin-left: 70px;
 }
-
 .subscribtion {
   grid-column: 2/3;
   font-style: normal;
   border-left: solid;
   border-width: 1px;
 }
-
 .subscribtion h5 {
   margin-left: 20px;
 }
-
 a .subscription {
   font-weight: bold;
   font-size: small;
 }
-
 .subscribtion ul {
   list-style-type: none;
 }
-
 #channels {
   display: grid;
   grid-template-columns: repeat(5, auto);
