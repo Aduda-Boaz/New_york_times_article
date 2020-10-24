@@ -56,13 +56,18 @@
   height: 80%;
 }
 .column_logo {
-  position: flex;
+  position: relative;
+  display: flex;
   align-items: center;
-  height: 40px;
-  overflow: hidden;
+  justify-content: center;
   justify-self: center;
+   width: 30%;
+
 
   
+}
+.column_logo a{
+
 }
 
 
@@ -78,6 +83,9 @@
   color: black;
   font-size: larger;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.column_space a:hover{
+  color: black;
 }
 .column_auth {
   position: relative;
