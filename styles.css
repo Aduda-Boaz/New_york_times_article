@@ -280,6 +280,13 @@ img {
     margin-top: 40px;
 }
 
+.editors_aside {
+    position: relative;
+    top: 45%;
+}
+
+.editor {}
+
 .thanks_reading {
     width: 50%;
     margin: auto;
