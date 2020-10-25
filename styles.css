@@ -440,7 +440,7 @@ img {
     align-items: center;
 }
 
-.more_space {
+.more_space_grid {
     display: grid;
     grid-template-columns: 75% 25%;
     gap: 10px;
@@ -450,7 +450,6 @@ img {
 .space_astronomy {
     grid-column: 1/2;
     border-top: solid;
-    border-bottom: solid;
     border-width: 1px;
 }
 
@@ -473,13 +472,20 @@ img {
     border-bottom: solid;
     border-width: 1px;
     border-color: grey;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: small;
 }
 
-.most_popular>div a {
-    color: black;
+.most_popular a {
+    font-size: larger;
+    color: rgb(61, 58, 58);
+    text-decoration: none;
+}
+
+.most_popular a:hover {
+    color: rgb(209, 199, 199);
+    cursor: pointer;
     text-decoration: none;
 }
 
@@ -487,6 +493,14 @@ img {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
+    border-bottom: solid;
+    border-width: 1px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.border_none {
+    border: none;
 }
 
 .more_onspace {
@@ -494,7 +508,7 @@ img {
     color: black;
 }
 
-a>.more_space {
+.more_onspace_grid a {
     color: black;
     text-decoration: none;
     font-style: normal;
@@ -504,35 +518,38 @@ a>.more_space {
 
 .footer_container {
     border-top: double;
-    border-bottom: solid;
     color: black;
     margin-bottom: 150px;
     margin-top: 100px;
     margin-left: 30px;
-    border-width: 1px;
+    border-width: 3px;
     border-color: rgb(165, 159, 159);
 }
 
-a>.footer_container {
+.footer_container {
     color: black;
 }
 
 .footer_head {
-    display: table;
+    display: grid;
+    grid-template-columns: 70% 30%;
     width: 100%;
     align-items: center;
+    justify-content: center;
 }
 
-#footer_logo {
-    display: table-cell;
+.footer_logo {
+    grid-column: 1/2;
     width: 70%;
     height: 30px;
+    justify-self: start;
 }
 
-#homepage {
-    display: table-cell;
+.homepage {
+    grid-column: 2/3;
     width: 30%;
-    float: right;
+    justify-self: end;
+    justify-content: end;
     color: blue;
 }
 
@@ -546,10 +563,10 @@ a>.footer_container {
     grid-column: 1/2;
 }
 
-.channels ul {
+.channel_catagory ul {
     list-style-type: none;
     text-align: left;
-    margin-left: 70px;
+    margin: 0px;
 }
 
 .subscribtion {
@@ -557,26 +574,36 @@ a>.footer_container {
     font-style: normal;
     border-left: solid;
     border-width: 1px;
+    border-color: rgb(183, 189, 189);
 }
 
 .subscribtion h5 {
     margin-left: 20px;
 }
 
-a .subscription {
-    font-weight: bold;
+.subscribtion a {
     font-size: small;
+    color: rgb(88, 85, 85);
 }
 
 .subscribtion ul {
     list-style-type: none;
+    justify-self: left;
 }
 
-#channels {
+.channel_catagory {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    gap: 10px;
-    text-align: center;
+    justify-content: left;
+    gap: 13%
+}
+
+.channel_catagory a {
+    color: rgb(88, 85, 85);
+}
+
+.channel_catagory a:hover {
+    color: rgb(112, 108, 108);
 }
 
 .figure {
@@ -623,4 +650,59 @@ a {
     border-left: solid;
     border-width: 1px;
     border-color: black;
+}
+
+figure .fig_src span {
+    position: relative;
+    float: right;
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-size: smaller;
+    color: gray;
+}
+
+.more_onspace figure date {
+    font-size: smaller;
+    color: gray;
+}
+
+.more_onspace figure {
+    color: black;
+    font-size: medium;
+}
+
+.more_onspace a {
+    text-decoration: none;
+}
+
+.more_onspace figure:hover {
+    color: rgb(189, 179, 179);
+}
+
+.more_onspace a:hover {
+    text-decoration: none;
+}
+
+.footer-options {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-options ul {
+    list-style-type: none;
+}
+
+.footer-options li {
+    float: left;
+}
+
+.footer-options li a {
+    font-size: 10px;
+    display: block;
+    color: rgb(117, 113, 113);
+    text-align: center;
+    padding: 0px 10px 0px 10px;
 }
