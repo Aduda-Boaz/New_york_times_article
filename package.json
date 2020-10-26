@@ -7,6 +7,11 @@
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
+    "stylelint": "^13.7.2",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "^3.18.0",
     "stylint": "^2.0.0"
   },
   "scripts": {
