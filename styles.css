@@ -67,6 +67,11 @@
     width: 25%;
 }
 
+.article_print_info a {
+    color: rgb(80, 77, 77);
+    padding: 0 3px 0 3px;
+}
+
 .column_space {
     position: relative;
     display: flex;
@@ -74,7 +79,7 @@
     width: 100%;
     justify-self: center;
     text-align: center;
-    font-style: bold;
+    font-weight: bold;
     font-size: medium;
 }
 
@@ -82,6 +87,49 @@
     color: black;
     font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.channel_catagory a {
+    color: rgb(88, 85, 85);
+}
+
+.more_onspace a {
+    text-decoration: none;
+}
+
+.more_onspace_grid a {
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.most_popular a {
+    font-size: larger;
+    color: rgb(61, 58, 58);
+    text-decoration: none;
+}
+
+.editor a {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-decoration: none;
+    color: grey;
+}
+
+.subscribtion a {
+    font-size: small;
+    color: rgb(88, 85, 85);
+}
+
+.footer-options li a {
+    font-size: 10px;
+    display: block;
+    color: rgb(117, 113, 113);
+    text-align: center;
+    padding: 0 10px 0 10px;
 }
 
 .column_space a:hover {
@@ -125,10 +173,10 @@
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .btnAuth {
@@ -198,13 +246,14 @@ img {
     line-height: 30px;
 }
 
-.aside_container {
+.editors_aside {
+    position: relative;
     justify-items: center;
     justify-content: center;
     grid-column: 3/4;
     grid-row: 1/2;
     top: 500px;
-    margin-left: 20px;
+    margin: 0px;
 }
 
 .authors_link {
@@ -270,7 +319,6 @@ img {
     margin-left: 3px;
     margin-right: 3px;
     color: black;
-    padding: 0px;
 }
 
 .social_icon_1:hover {
@@ -283,26 +331,26 @@ img {
     margin-top: 40px;
 }
 
-.editors_aside {
-    position: relative;
-    top: 45%;
+.editor {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    font-size: 12px;
 }
-
-.editor {}
 
 .thanks_reading {
     width: 100%;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0 20px 0;
 }
 
 .thanks_reading a {
-    margin: 0px 30% 0px 35%;
+    margin: 0 30% 0 35%;
     display: block;
 }
 
 .thanks_reading small {
     display: block;
-    margin: 0px 25% 0px 30%;
+    margin: 0 25% 0 30%;
 }
 
 .mark_line {
@@ -420,7 +468,7 @@ img {
 .comment_grid {
     display: grid;
     grid-template-columns: 50% 50%;
-    margin: 0px;
+    margin: 0;
 }
 
 .read_comments {
@@ -477,12 +525,6 @@ img {
     font-size: small;
 }
 
-.most_popular a {
-    font-size: larger;
-    color: rgb(61, 58, 58);
-    text-decoration: none;
-}
-
 .most_popular a:hover {
     color: rgb(209, 199, 199);
     cursor: pointer;
@@ -508,26 +550,20 @@ img {
     color: black;
 }
 
-.more_onspace_grid a {
-    color: black;
-    text-decoration: none;
-    font-style: normal;
-    font-size: 18px;
-    font-weight: normal;
+figure .fig_date {
+    width: 100%;
+    position: relative;
+    float: left;
 }
 
 .footer_container {
     border-top: double;
     color: black;
-    margin-bottom: 150px;
+    margin-bottom: 20px;
     margin-top: 100px;
     margin-left: 30px;
     border-width: 3px;
     border-color: rgb(165, 159, 159);
-}
-
-.footer_container {
-    color: black;
 }
 
 .footer_head {
@@ -566,7 +602,7 @@ img {
 .channel_catagory ul {
     list-style-type: none;
     text-align: left;
-    margin: 0px;
+    margin: 0;
 }
 
 .subscribtion {
@@ -581,11 +617,6 @@ img {
     margin-left: 20px;
 }
 
-.subscribtion a {
-    font-size: small;
-    color: rgb(88, 85, 85);
-}
-
 .subscribtion ul {
     list-style-type: none;
     justify-self: left;
@@ -595,11 +626,7 @@ img {
     display: grid;
     grid-template-columns: repeat(5, auto);
     justify-content: left;
-    gap: 13%
-}
-
-.channel_catagory a {
-    color: rgb(88, 85, 85);
+    gap: 13%;
 }
 
 .channel_catagory a:hover {
@@ -611,7 +638,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0px 5px 0px;
+    margin: 20px 0 5px 0;
 }
 
 .figure figcaption {
@@ -626,19 +653,14 @@ img {
 
 .article_print_info {
     line-height: 15px;
-    margin: 30px 0px 30px 0px;
+    margin: 30px 0 30px 0;
     color: rgb(167, 162, 162);
-}
-
-.article_print_info p,
-a {
-    display: inline;
     font-size: 12px;
 }
 
-.article_print_info a {
-    color: rgb(167, 162, 162);
-    padding: 0px 3px 0px 3px;
+.article_print_info p {
+    display: inline;
+    font-size: 12px;
 }
 
 .article_print_info a:hover {
@@ -662,7 +684,7 @@ figure .fig_src span {
     color: gray;
 }
 
-.more_onspace figure date {
+.more_onspace figure>span {
     font-size: smaller;
     color: gray;
 }
@@ -670,10 +692,6 @@ figure .fig_src span {
 .more_onspace figure {
     color: black;
     font-size: medium;
-}
-
-.more_onspace a {
-    text-decoration: none;
 }
 
 .more_onspace figure:hover {
@@ -689,6 +707,8 @@ figure .fig_src span {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .footer-options ul {
@@ -699,10 +719,36 @@ figure .fig_src span {
     float: left;
 }
 
-.footer-options li a {
-    font-size: 10px;
-    display: block;
-    color: rgb(117, 113, 113);
-    text-align: center;
-    padding: 0px 10px 0px 10px;
+.editor-pick {
+  
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+}
+
+.editor-imge-container {
+  grid-column: 1/2;
+  height: 100%;
+  width:100%;
+
+ 
+}
+.img_describtion {
+  grid-column: 2/3;
+  overflow: hidden;
+  background-color: brown;
+  display: table-cell;
+
+}
+.footer_endline{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.list_sep{
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgb(149, 151, 147);
+
 }
