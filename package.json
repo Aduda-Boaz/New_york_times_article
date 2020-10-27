@@ -1,0 +1,30 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "> New_york_times_article page clone with HTML and CSS.",
+  "main": "index.js",
+  "dependencies": {
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "stylelint": "^13.7.2",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "^3.18.0",
+    "stylint": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aduda-Boaz/New_york_times_article.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aduda-Boaz/New_york_times_article/issues"
+  },
+  "homepage": "https://github.com/Aduda-Boaz/New_york_times_article#readme"
+}

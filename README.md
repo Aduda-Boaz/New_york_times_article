@@ -13,6 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
+[Live Demo Link](https://aduda-boaz.github.io/New_york_times_article)
 
 ## Authors
 
