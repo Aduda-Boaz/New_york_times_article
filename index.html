@@ -9,6 +9,7 @@
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <title>Space Ripples Reveal Big Bang’s Smoking Gun</title>
+    <script src="./javascript/script.js"></script>
 </head>
 
 <body>
@@ -304,7 +305,8 @@
             </div>
             <div class="comment_grid">
                 <div class="read_comments">
-                    <button class="btnAuth btnLarge" type="button">READ 615 COMMENTS</button>
+                    <button class="btnAuth btnLarge" type="button" onclick="show_comment_form()">READ 615 COMMENTS</button>
+                   
                 </div>
                 <div class="social_share">
 
@@ -315,8 +317,48 @@
                 </div>
             </div>
 
-        </div>
 
+        </div>
+ <div class="comment-form">
+     <div class="close-comment"><button onclick="close_comment()"> X </button></div>
+ <div class="form">
+                          <form action="" method="POST">
+                                 <label>Name:</label>
+                                 <input class="name-text" type="text" placeholder="Enter your name here" required maxlength="25">
+                                 <label>Email:</label>
+                                 <input class="email-text" type="email" placeholder="Enter your email" required maxlength="25">
+                                 <label>What is your overall opinion about this article?</label>
+                                     
+                                     <div class="radio-btn">
+                                         <label>
+                                             <input type="radio" value="" name="raio-comment" >
+                                          Positive 
+                                         </label>
+                                          <label>
+                                             <input type="radio" name="raio-comment" value="" >
+                                             Neutral 
+                                         </label>
+                                          <label>
+                                             <input type="radio"  value="" name="raio-comment" checked="checked">
+                                             Negative 
+                                         </label>
+                                     </div>
+                                 <label>Leave Comments</label>
+                                 <textarea class="comment-text" rows="5" cols="60" placeholder="Type your comment her..." maxlength="250"></textarea>
+                                    
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">
+                                            I want to subscribe to the newsletter
+                                        </label>
+                                    </div>
+                                    
+                                    <button type="submit" class="btn-submit">Submit</button>
+                                    
+                                    
+                                </form>
+                          </div>
+                    </div>
         <div class="more_space_grid">
             <div class="space_astronomy">
                 <h4>More in Space and Astronomy</h4>
